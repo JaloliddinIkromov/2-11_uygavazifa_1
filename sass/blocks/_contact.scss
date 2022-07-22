@@ -77,7 +77,7 @@ color: #79C8C7;
  text-decoration: none;
 } 
 
-@media only screen and ( max-width:768px) and (min-width:576px){ 
+@media only screen and ( max-width:768px) { 
 .contact{ 
     background-position: calc(50% + 285px) calc(50% + 765px),calc(0%) calc(0%);
 }
@@ -104,9 +104,9 @@ margin-bottom: 84px;
 } 
 
 
-@media only screen and (max-width:576px) and ( min-width:375px){ 
+@media only screen and (max-width:576px){ 
     .contact{ 
-        background-position: calc(50% + 190px) calc(50% + 800px),calc(0%) calc(0%);
+        background-position: calc(50% + 65%) bottom,calc(0%) calc(0%);
     }
     .contact__blog{ 
     flex-direction: column; 
@@ -118,7 +118,7 @@ margin-bottom: 84px;
     .contact__inner{ 
     flex-direction: column;
     text-align: center;
-    background-position: calc(50% ) calc(50% + 249px),calc(50%) calc(50% + -118px),calc(50%) calc(0% + 10px);
+    background-position: calc(50% ) calc(50% + 25%),calc(50%) calc(50% + -12%),calc(50%) calc(0% + 1%);
     }
     .contact__content{ 
     

@@ -56,9 +56,9 @@ max-width:445px ;
     color: #FFFFFF;
 } 
 
-@media only screen and ( max-width:768px) and (min-width:576px) { 
+@media only screen and ( max-width:768px){ 
     .hero{ 
-        background-position: calc(50%) calc(50% + 260px),calc(0% + -100px ) calc(0%);
+        background-position: calc(50%) bottom,calc(0% + -100px ) calc(0%);
     } 
     
     .hero__bloc{  
@@ -70,7 +70,7 @@ max-width:445px ;
      text-align: center;
     }  
     .hero__subtitle{ 
-     margin-right: 0;
+     margin-right: 0; 
     }
     .hero__inner{ 
      margin: auto; 
@@ -83,16 +83,17 @@ max-width:445px ;
                 } 
 
 
- @media only screen and (max-width:576px) and ( min-width:375px){ 
+ @media only screen and (max-width:576px){ 
   
 
     .hero{ 
-        background-position: calc(50%) calc(0% + 458px) ,calc(0% + -100px )calc(0%); 
+        background-position: calc(50%) bottom ,calc(0% + -100px ); 
         background-size: 95% ,100px 200px; 
     } 
     .hero__bloc{  
         display: flex; 
         flex-direction: column;
+        background-position: bottom;
        }  
 
 
@@ -101,7 +102,16 @@ max-width:445px ;
      text-align: center;
     }  
     .hero__subtitle{ 
-     margin-right: 0;
+     margin-right: 0; 
+     font-weight: 700;
+     font-size: 70px;
+     line-height: 80px;
+    } 
+    .hero-span{  
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 80px;
+     
     }
     .hero__inner{ 
      margin: auto; 
