@@ -30,6 +30,7 @@
  
 } 
 .widget__item{  
+  position: relative;
   background-color: #012F34;   
   padding: 32px 24px 56px ;   
  width: 350px;  
@@ -38,17 +39,20 @@
  margin-right: 30px; 
  margin-bottom: 76px;
   
- &{   
-   
+ &::before{   
+   position: absolute;
+   width: 56px;
+   height: 56px;
     background-image: url("../images/ab-bg-img-doira.png") ; 
   background-repeat: no-repeat; 
-  background-size: 56px 56px; 
-  background-position: calc( 50% ) calc(50% + 128px); 
- 
+  background-size: 100%;  
+ left: 43%;
+  bottom: -10%; 
+ content: '';
 }  
 }
 .widget__item__blog{  
-
+  position: relative;
   padding: 32px 24px 56px ;   
   width: 350px;  
   height: 253px;
@@ -56,12 +60,16 @@
   margin-bottom: 76px; 
   background-color: #002529; 
 
-  &{ 
+  &::before{  
+    position: absolute; 
+    width: 56px;
+   height: 56px;
    background-image: url("../images/ab-bg-img-doira_2.png"); 
    background-repeat: no-repeat; 
-   background-size: 56px 56px; 
-   background-position: calc( 50% ) calc(50% + 128px) ;
- 
+   background-size:100%;  
+   left: 43%;
+   bottom: -10%;
+   content: '';
 
   }
 }
